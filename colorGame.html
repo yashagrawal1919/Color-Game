@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
+
+<link href="https://fonts.googleapis.com/css?family=Dosis|Varela" rel="stylesheet">
+
+
+
+  <style>
+  body{
+    background-color: #666;
+  }
+     .header{
+       height:auto;
+       width:100%;
+       background-color: steelblue;
+       text-align: center;
+       font-family: Varela;
+       text-transform: uppercase;
+       color: #eee;
+     }
+     .header >div:nth-of-type(2n+1){
+       font-size: 40px;
+       font-weight: 500;
+     }
+     .header >div:nth-of-type(2n+2){
+       font-size: 60px;
+       font-weight: 600;
+     }
+     .nav{
+       text-transform: uppercase;
+       font-size: 25px;
+       color: #175264;
+       background-color: #eee;
+     }
+     .nav li{
+       display: inline-block;
+       cursor: pointer;
+     }
+     .nav li:first-child{
+       margin-left: 15%;
+       margin-right: 10%;
+     }
+     .nav > li:nth-child(2){
+       margin-left: 10%;
+       margin-right: 15%;
+       color: green;
+       font-family: Raleway;
+     }
+     .nav li:last-child{
+       margin-left: 2%;
+     }
+     .container{
+       width:470px;
+       margin:0 auto;
+       margin-top: 30px;
+     }
+     .container .first > div , .container .second > div{
+       display:inline-block;
+       padding-top: 150px;
+       width:150px;
+       border-radius: 10px;
+       background-color: cyan;
+     }
+     .first{
+       margin-bottom: 10px;
+     }
+     .two , .five{
+       margin:0 5px;
+     }
+     .no{
+       display:none;
+     }
+     .block{
+       display:block;
+     }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="header">
+    <div>the great</div>
+    <div>rgb (
+      <span class="span1"></span>
+      ,
+      <span class="span2"></span>
+      ,
+      <span class="span3"></span>
+      )</div>
+    <div>guessing game</div>
+  </div>
+  <div class="nav">
+    <li>New Game</li>
+    <li></li>
+    <li class="Easy">Easy</li>
+    <li class="Hard">Hard</li>
+  </div>
+  <div class="container">
+    <div class="first">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class='three'></div>
+    </div>
+    <div class="second">
+      <div class="four"></div>
+      <div class="five"></div>
+      <div class="six"></div>
+    </div>
+  </div>
+<div class="fake"></div>
+  <script type="text/javascript" src="colorGame.js">
+
+  </script>
+</body>
+</html>
